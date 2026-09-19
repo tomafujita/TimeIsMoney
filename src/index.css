@@ -1,0 +1,11 @@
+/* このファイルはアプリ全体に効くCSSの入り口。
+   Tailwind CSSを読み込むことで、App.tsxなどのファイルで
+   className="bg-black text-white" のようなクラス名を使ってデザインできるようになる */
+@import "tailwindcss";
+
+/* ページ全体の背景色と文字色を、仕様書のダークモード配色に合わせておく */
+body {
+  margin: 0;
+  background-color: #0b0b0e;
+  color: #ffffff;
+}

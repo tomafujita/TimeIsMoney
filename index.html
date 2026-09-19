@@ -1,0 +1,16 @@
+<!-- index.html はブラウザが最初に読み込む土台となるファイル。
+     中身の <div id="root"></div> という場所に、
+     src/main.tsx が画面を差し込んでくれる。 -->
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimeIsMoney</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
